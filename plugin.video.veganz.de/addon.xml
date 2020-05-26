@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.veganz.de" name="Veganz.de" version="2.3.1" provider-name="Zwergkaninchen">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Veganz Rezepte und Co Streaming.</summary>
+  <description lang="en_GB">Veganz Rezepte und Co Streaming. http://veganz.de</description>
+  <disclaimer lang="en_GB">Veganz Group AG</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>    
+  </assets>
+  <source>https://github.com/Zwergkaninchen/plugin.video.veganz.de</source>
+  <website>http://veganz.de</website>
+ <email>Zwergkaninchen978mail.com</email>
+</extension>
+</addon>
