@@ -1,1 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.tvnow.de" name="TvNow" version="0.5.11" provider-name="Pati">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="inputstream.adaptive" version="1.0.8"/>
+    <import addon="script.module.routing" version="0.2.0"></import>
+    <import addon="script.module.pycryptodome" version="3.4.3"/>
+    <import addon="script.module.inputstreamhelper" version="0.4.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">Plugin für TvNow Deutschland</summary>
+    <summary lang="en_gb">Plugin for TvNow Germany</summary>
+    <description lang="de"></description>
+    <description lang="en_gb"></description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
 
+<addon id="plugin.video.veganz.de" name="Veganz.de" version="2.3.1" provider-name="Zwergkaninchen">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Veganz Rezepte und Co Streaming.</summary>
+  <description lang="en_GB">Veganz Rezepte und Co Streaming. http://veganz.de</description>
+  <disclaimer lang="en_GB">Veganz Group AG</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>    
+  </assets>
+  <source>https://github.com/Zwergkaninchen/plugin.video.veganz.de</source>
+  <website>http://veganz.de</website>
+ <email>Zwergkaninchen978mail.com</email>
+</extension>
+</addon>
