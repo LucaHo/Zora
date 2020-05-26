@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.hdfilme.net" name="[COLOR lime]HD-Filme.cc[/COLOR]" version="1.2.2" provider-name="Loki1979">
+<addon id="plugin.video.hdfilme.net"
+		name="[COLOR lime]HD-Filme.cc[/COLOR]"
+		version="1.2.2"
+		provider-name="Loki1979">
 	<requires>
         <import addon="xbmc.python" version="2.7.13" />
 		<import addon="script.module.hsk.de" version="1.1.0"/>
