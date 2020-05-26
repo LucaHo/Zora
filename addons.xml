@@ -28,7 +28,7 @@
     <source></source>
   </extension>
 </addon>
-version="2.3.1" provider-name="Zwergkaninchen">
+<addon id="plugin.video.veganz.de" name="Veganz.de" version="2.3.1" provider-name="Zwergkaninchen">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
 </requires>
@@ -51,3 +51,4 @@ version="2.3.1" provider-name="Zwergkaninchen">
  <email>Zwergkaninchen978mail.com</email>
 </extension>
 </addon>
+</addons>
