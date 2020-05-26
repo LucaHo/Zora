@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: L0RE
+# Author: Zwergkaninchen
 # This Script Generates a new Inventory for a new Version or New Plugin
 REPO=/www/repo/git
 if [ "$1" != "" ]
