@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Zora" name="Zora Repository" version="4.0.2" provider-name="Zwergkaninchen">
+<addon id="repository.Zora" name="Zora Repository" version="4.0.3" provider-name="Zwergkaninchen">
 	<extension point="xbmc.addon.repository" name="Zwergkaninchen">
 		<info compressed="true">https://raw.githubusercontent.com/Zwergkaninchen/Zora/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Zwergkaninchen/Zora/master/addons.xml.md5</checksum>
@@ -9,7 +9,7 @@
 		<summary lang="en">Official Zora Repository</summary>
 		<summary lang="de">Offizielles Zora Repository</summary>
 		<description lang="en">Zora Repository</description>
-		<description lang="de">Zora Repository Add-on.</description>
+		<description lang="de">Zora Repository</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
