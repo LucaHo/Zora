@@ -51,4 +51,19 @@
  <email>Zwergkaninchen978mail.com</email>
 </extension>
 </addon>
+<addon id="repository.Zora" name="Zora Repository" version="4.0.3" provider-name="Zwergkaninchen">
+	<extension point="xbmc.addon.repository" name="Zwergkaninchen">
+		<info compressed="true">https://raw.githubusercontent.com/Zwergkaninchen/Zora/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Zwergkaninchen/Zora/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Zwergkaninchen/Zora/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Official Zora Repository</summary>
+		<summary lang="de">Offizielles Zora Repository</summary>
+		<description lang="en">Zora Repository</description>
+		<description lang="de">Zora Repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
