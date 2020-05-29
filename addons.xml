@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.audio.Zora.Radio" name="Zora Radio" version="1.0.1" provider-name="Zwergkaninchen">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Zora Germany Radio</summary>
+    <language>en</language>
+    <description lang="en">Zora Germany Radio</description>
+     <platform>all</platform>
+  </extension>
+</addon>
 <addon id="plugin.video.tvnow.de" name="TvNow" version="0.5.11" provider-name="Pati">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
