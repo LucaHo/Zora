@@ -16,6 +16,23 @@
      <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.video.ZoraTV" name="ZoraTV" version="2.0.1" provider-name="Zwergkaninchen">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ZoraTV Germany IPTV Client.</summary>
+    <description lang="en">ZoraTV Germany IPTV Client.</description>
+    <disclaimer lang="en">@Zwergkaninchen</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <website></website>
+    <email>Zwergkaninchen978@gmail.com</email>
+  </extension>
+</addon>
 <addon id="plugin.video.tvnow.de" name="TvNow" version="0.5.11" provider-name="Pati">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
