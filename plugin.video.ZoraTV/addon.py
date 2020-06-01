@@ -117,9 +117,9 @@ LiveTV = [{
   'icon': 'RTL.png',
   'disabled': False
 }, {
-  'name': 'SIXX',
+  'name': 'RTL2',
   'url': 'http://5.135.92.133:52841/out/u/119_1.m3u8',
-  'icon': 'SIXX.png',
+  'icon': 'RTL2.png',
   'disabled': False
 }]
 
