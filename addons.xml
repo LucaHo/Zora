@@ -13,24 +13,9 @@
     <summary lang="en">Zora Germany Radio</summary>
     <language>en</language>
     <description lang="en">Zora Germany Radio</description>
+      <disclaimer lang="en_GB">@Zwergkaninchen</disclaimer>
      <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.video.ZoraTV" name="ZoraTV" version="2.0.2" provider-name="Zwergkaninchen">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">ZoraTV Germany IPTV Client.</summary>
-    <description lang="en">ZoraTV Germany IPTV Client.</description>
-    <disclaimer lang="en">@Zwergkaninchen</disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <website></website>
-    <email>Zwergkaninchen978@gmail.com</email>
+   <email>Zwergkaninchen978@gmail.com</email>
   </extension>
 </addon>
 <addon id="plugin.video.tvnow.de" name="TvNow" version="0.5.11" provider-name="Pati">
@@ -61,7 +46,7 @@
     <source></source>
   </extension>
 </addon>
-<addon id="plugin.video.veganz.de" name="Veganz.de" version="2.3.3" provider-name="Zwergkaninchen">
+<addon id="plugin.video.veganz.de" name="Veganz.de" version="2.3.2" provider-name="Zwergkaninchen">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
 </requires>
@@ -95,8 +80,9 @@
 		<summary lang="de">Offizielles Zora Repository</summary>
 		<description lang="en">Zora Repository</description>
 		<description lang="de">Zora Repository</description>
-		<disclaimer></disclaimer>
+		<disclaimer>@Zwergkaninchen</disclaimer>
 		<platform>all</platform>
+		<email>Zwergkaninchen978@gmail.com</email>
 	</extension>
 </addon>
 </addons>
