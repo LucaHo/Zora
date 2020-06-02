@@ -16,7 +16,7 @@
      <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.ZoraTV" name="ZoraTV" version="2.0.1" provider-name="Zwergkaninchen">
+<addon id="plugin.video.ZoraTV" name="ZoraTV" version="2.0.2" provider-name="Zwergkaninchen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
