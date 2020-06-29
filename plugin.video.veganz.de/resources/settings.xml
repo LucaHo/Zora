@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="Login">
+      <setting id="set_login" type="action" label="Anmelden..." action="RunPlugin(plugin://plugin.video.PlayMovie/?action=login)" option="close"/>
+      <setting id="use-account" type="bool" label="30200" default="false"/>
+      <setting id="username" type="text" label="30201" default="" enable="!eq(-1,false)"/>
+      <setting id="password" type="text" label="30202" default="" option="hidden" enable="!eq(-2,false)"/>
+      <setting id="hide-successful-login-messages" type="bool" label="30203" default="false" enable="!eq(-3,false)"/>
+  </category>
+  <category label="Erweitert">
+      <setting id="patch_manifest" type="bool" label="Entferne pssh Daten aus Manifest" default="false"/>
+  </category>
+
+</settings>
