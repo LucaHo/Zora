@@ -15,7 +15,7 @@ import re
 import resources.lib.common as common
 from sendung import Sendung
 import tvnow
-apiBase = "https://apigw.tvnow.de"
+apiBase = "https://bff.apigw.tvnow.de"
 formatImageURL = "https://ais.tvnow.de/tvnow/format/{fid}_formatlogo/408x229/image.jpg"
 episodeImageURL = "https://ais.tvnow.de/tvnow/movie/{eid}/408x229/image.jpg"
 addon_handle = int(sys.argv[1])
@@ -89,7 +89,7 @@ class Navigation():
     
     def getInfoLabel(self, data, movie=False):
         info = {}
-        info['title'] = data.get('headline', '') 
+        info['title'] = data.get('headline', '')
         if not data.get('year_of_production', '') == '':
             info['year'] = data.get('year_of_production', '')
         if movie:
@@ -354,7 +354,8 @@ class Navigation():
                 if movieMetadata:
                     url = apiBase + movieMetadataURL
                     r = requests.get(url)
-                    data = r.json()
+                    if r.status_code == 200:
+                        data = r.json()
                     if not "headline" in data:
                         data["headline"] = title_stripped
                 else:
