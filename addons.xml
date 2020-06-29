@@ -18,7 +18,7 @@
    <email>Zwergkaninchen978@gmail.com</email>
   </extension>
 </addon>
-<addon id="plugin.video.tvnow.de" name="TvNow" version="0.5.11" provider-name="Pati">
+<addon id="plugin.video.tvnow.de" name="TvNow" version="0.5.14" provider-name="Pati">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.9.1"/>
